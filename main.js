@@ -18,7 +18,7 @@ window.onscroll = function(){
     if(scrollY >= 67){
         Anime.style.fontSize = 67 + 'px';
         Anime.style.position = 'fixed';
-        if(scrollY >= 478){
+        if(scrollY >= 420){
             Anime.style.display = 'none';
         }else{
             Anime.style.display = 'block';
