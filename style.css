@@ -184,4 +184,65 @@ a{
     }
 }
 
+.Casting {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.opinion{
+    background-color:linear-gradient(#3a0229,#1b0132);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+}
+.opinion h2 {
+    text-align: center;
+    color: #ffe600;
+    margin-top: 0;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: gold;
+}
+.info input,.info textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e31b1b;
+    border-radius: 5px;
+    background-color: #e7e4e4;
+    color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.info input:focus,.info textarea:focus {
+    outline: none;
+    border-color: #ffe600;
+}
+
+button {
+    background-color: #0fc8f6;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #141bf4;
+}
+
 
